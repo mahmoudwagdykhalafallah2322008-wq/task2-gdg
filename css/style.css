@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #4c545d;
+    overflow-x: hidden;
+}
+p {
+    color: #9fabb2;
+    font-size: 14px;
+    line-height: 1.7;
+}
+h1, h2, h3 {
+    color: #333f46;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 70px 20px 100px;
+    background: linear-gradient(#f5f8f9, white 75%);
+    position: relative;
+    overflow: hidden;
+}
+.logo {
+    font-size: 65px;
+    color: #5ea49a;
+    margin-bottom: 25px;
+}
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: auto;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 30px;
+    font-size: 13px;
+    margin: 5px;
+    box-shadow: 0 5px 12px #00000020;
+}
+
+.green {
+    background-color: #58a398;
+}
+
+.blue {
+    background-color: #3c468e;
+}
+.section-title {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+}
+
+.section-title h2 {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+.track {
+    padding: 40px 0 100px;
+    overflow: hidden;
+}
+.computer-area {
+    position: relative;
+    min-height: 400px;
+}
+.computer-img {
+    width: 55%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    position: absolute;
+    left: -3%;
+    top: 0;
+}
+.computer-info {
+    width: 30%;
+    position: absolute;
+    left: 65%;
+    top: 20px;
+}
+.computer-info div {
+    margin-bottom: 30px;
+}
+.computer-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.computer-info p {
+    font-size: 13px;
+}
+.access {
+    text-align: center;
+    padding: 50px 20px 100px;
+    overflow: hidden;
+}
+
+.devices img {
+    width: 75%;
+    max-width: 850px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.workflow {
+    padding: 40px 20px 100px;
+    text-align: center;
+}
+.features {
+    text-align: center;
+    font-size: 0;
+}
+.feature {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    padding: 15px;
+    font-size: 14px;
+    margin: 0 1%;
+}
+.feature-icon {
+    font-size: 30px;
+    color: #9fabb2;
+    margin-bottom: 25px;
+}
+.feature h3 {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.companies {
+    text-align: center;
+    padding: 30px 10px 100px;
+}
+.companies span {
+    display: inline-block;
+    margin: 15px 30px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #89949b;
+}
+.download {
+    text-align: center;
+    padding: 20px 20px 100px;
+}
+footer {
+    background-color: #f5f6f8;
+    padding: 35px 7%;
+    position: relative;
+    min-height: 140px;
+}
+.footer-logo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    color: #26baa4;
+    width: 15%;
+}
+.footer-links {
+    display: inline-block;
+    vertical-align: middle;
+    width: 65%;
+}
+.footer-links a {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #4c545d;
+    font-size: 13px;
+}
+.social {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18%;
+    text-align: right;
+}
+.social a {
+    display: inline-block;
+    margin-left: 10px;
+    color: #4c545d;
+    text-decoration: none;
+}
